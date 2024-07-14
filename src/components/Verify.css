@@ -1,0 +1,56 @@
+/* Base styles for the verification page */
+.verification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+/* Style for the verification box */
+.verification-box {
+  width: 500px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the input field */
+.hash-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #555;
+  border-radius: 4px;
+  color: white;
+  background-color: #444;
+  outline: none;
+}
+
+/* Style for the verify button */
+.verify-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #d35400;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.verify-button:hover {
+  background-color: #e67e22;
+}
+
+/* Header style */
+.verification-header {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
